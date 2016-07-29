@@ -1,0 +1,4 @@
+-   repo: git://github.com/pre-commit/mirrors-pylint
+    sha: '4de6c8dfadef1a271a814561ce05b8bc1c446d22' 
+    hooks:
+    -   id: pylint
