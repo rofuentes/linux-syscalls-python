@@ -1,4 +1,5 @@
 -   repo: git://github.com/pre-commit/mirrors-pylint
-    sha: '4de6c8dfadef1a271a814561ce05b8bc1c446d22' 
+    sha: v1.5.5 
     hooks:
     -   id: pylint
+        args: [--reports=n, -d invalid-name]
