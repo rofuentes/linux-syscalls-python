@@ -1,5 +1,9 @@
 -   repo: git://github.com/pre-commit/mirrors-pylint
-    sha: v1.5.5 
+    sha: v1.5.5
     hooks:
     -   id: pylint
         args: [--reports=n, -d invalid-name]
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: v0.5.1 
+    hooks:
+    -   id: flake8 
