@@ -2,7 +2,7 @@
     sha: v1.5.5
     hooks:
     -   id: pylint
-        args: [--reports=n, -d invalid-name]
+        args: [--reports=n, -d invalid-name, -d missing-docstring, -d empty-docstring]
 -   repo: git://github.com/pre-commit/pre-commit-hooks
     sha: v0.5.1 
     hooks:
